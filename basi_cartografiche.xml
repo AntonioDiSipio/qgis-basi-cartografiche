@@ -1,0 +1,22 @@
+<!DOCTYPE connections>
+<qgsWMSConnections version="1.0">
+    <!-- Rete Geodetica e GNSS Regionale -->
+    <wms name="Regione Abruzzo - Rete Geodetica" 
+         url="http://catasto.regione.abruzzo.it:6080/arcgis/services/Rete_Geodetica/Rete_GNSS_e_Geodetica/MapServer/WMSServer" 
+         dpiMode="7" ignoreAxisOrientation="0" ignoreGetFeatureInfoURI="0" ignoreGetMapURI="0" invertAxisOrientation="0" smoothPixmapTransform="0" username="" password=""/>
+
+    <!-- Geocatalogo Raster ERDAS (Ortofoto aeree, CTR raster 1:5.000 / 1:10.000 / 1:25.000, DTM) -->
+    <wms name="Regione Abruzzo - Geocatalogo Raster (ERDAS)" 
+         url="http://geocatalogo.regione.abruzzo.it/erdas-iws/ogc/wms/?" 
+         dpiMode="7" ignoreAxisOrientation="0" ignoreGetFeatureInfoURI="0" ignoreGetMapURI="0" invertAxisOrientation="0" smoothPixmapTransform="0" username="" password=""/>
+
+    <!-- Pianificazione e Vincoli Territoriali (SeaGIS 106) -->
+    <wms name="Regione Abruzzo - Pianificazione e Vincoli (SeaGIS)" 
+         url="http://catasto.regione.abruzzo.it:6080/arcgis/services/Pianificazione_e_Vincoli/SEAGIS_106/MapServer/WMSServer" 
+         dpiMode="7" ignoreAxisOrientation="0" ignoreGetFeatureInfoURI="0" ignoreGetMapURI="0" invertAxisOrientation="0" smoothPixmapTransform="0" username="" password=""/>
+
+    <!-- Cartografia Catastale Ufficiale Agenzia delle Entrate (Particelle, Fabbricati, Fogli) -->
+    <wms name="Agenzia delle Entrate - Cartografia Catastale Nazionale" 
+         url="https://wms.cartografia.agenziaentrate.gov.it/inspire/wms/ows01.php" 
+         dpiMode="7" ignoreAxisOrientation="0" ignoreGetFeatureInfoURI="0" ignoreGetMapURI="0" invertAxisOrientation="0" smoothPixmapTransform="0" username="" password=""/>
+</qgsWMSConnections>
