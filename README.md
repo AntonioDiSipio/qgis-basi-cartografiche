@@ -10,7 +10,7 @@ Il repository include endpoint ufficiali per la consultazione e l'interrogazione
 
 | File | Protocollo | Descrizione principale |
 | :--- | :--- | :--- |
-| `cartografia_di_base_wfs-ogc-api_feature.xml` | **WFS / OGC API** | Servizi vettoriali interrogabili e scaricabili (es. Catasto Nazionale AdE via INSPIRE WFS). |
+| `basi_cartografiche_wfs-ogc-api_feature.xml` | **WFS / OGC API** | Servizi vettoriali interrogabili e scaricabili (es. Catasto Nazionale AdE via INSPIRE WFS). |
 | `cartografia_di_base_wms.xml` | **WMS / WMTS** | Servizi raster a visualizzazione (ortofoto, CTR, carte topografiche, vincoli). |
 | `xyz_tiles.xml` *(opzionale)* | **XYZ Tiles** | Basemap raster globali ad alte prestazioni (OSM, Google, ESRI, Bing). |
 
@@ -24,7 +24,7 @@ L'importazione si effettua direttamente tramite il pannello **Browser** (Navigat
 1. Apri QGIS.
 2. Nel pannello **Browser**, individua la voce **WFS / OGC API - Features**.
 3. Clicca con il tasto destro sulla voce e seleziona **Carica connessioni...** (*Load Connections...*).
-4. Seleziona il file `cartografia_di_base_wfs-ogc-api_feature.xml`.
+4. Seleziona il file `basi_cartografiche_wfs-ogc-api_feature.xml`.
 5. Seleziona le connessioni desiderate (oppure clicca su **Seleziona tutto**) e premi **Importa**.
 
 ### Importazione WMS / WMTS
