@@ -1,0 +1,4 @@
+<!DOCTYPE connections>
+<qgsWFSConnections version="1.1">
+    <wfs featureMode="default" httpMethod="get" ignoreAxisOrientation="0" invertAxisOrientation="0" maxnumfeatures="" name="Agenzia delle Entrate - Cartografia Catastale Nazionale" pagesize="" pagingenabled="default" password="" url="https://wfs.cartografia.agenziaentrate.gov.it/inspire/wfs/owfs01.php" username="" version="auto"/>
+</qgsWFSConnections>
